@@ -5,7 +5,7 @@
     "node": true
   },
   "globals": {
-    "jquery": true,
+    "jQuery": true,
     "$": true
   },
   "extends": ["airbnb-base"],

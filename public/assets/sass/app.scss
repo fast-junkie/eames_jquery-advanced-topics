@@ -8,3 +8,19 @@ textarea {
     size: 0.8rem;
   }
 }
+button.back {
+  margin: {
+    top: 3rem;
+  }
+}
+#output {
+  background: {
+    color: rgba(188, 188, 0, 0.7);
+  }
+  border: {
+    color: rgba(188, 188, 0, 1);
+    style: 'solid';
+    width: 'thin';
+  }
+}
+
