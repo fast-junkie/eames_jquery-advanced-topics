@@ -1,0 +1,33 @@
+{
+  "name": "eames_jquery-advanced-topics",
+  "version": "0.6.5",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "copy:vendor": "cpx \"node_modules/{jquery/dist}/**/*\" public/assets/vendor -C",
+    "scss:app": "sass public/assets/sass/app.scss public/assets/css/app.css",
+    
+    "build:css": "npm run scss:app",
+    "build": "npm run copy:vendor && npm run build:css",
+
+    "start": "DEBUG=jquery,jquery:* nodemon server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Fast Junkie",
+  "license": "copyleft-next-0.3.1",
+  "dependencies": {
+    "debug": "4.3.3",
+    "express": "4.17.2",
+    "jquery": "3.6.0",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "cpx": "1.5.0",
+    "eslint": "8.8.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.4",
+    "jest": "27.5.1",
+    "nodemon": "2.0.15",
+    "sass": "1.49.7"
+  }
+}
