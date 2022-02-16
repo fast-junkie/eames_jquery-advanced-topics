@@ -14,4 +14,4 @@ ___
 
 ### Summary
 ---
-:skull:
+:skull: As this was written for `jQuery 1.7.x` my using `jQuery 3.6.x` proved to reveal **_many_** deprecated items.
