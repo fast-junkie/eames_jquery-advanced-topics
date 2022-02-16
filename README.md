@@ -1,7 +1,9 @@
 # eames_jquery-advanced-topics
 
 [jQuery Advanced Topics](https://app.pluralsight.com/library/courses/jquery-adv/table-of-contents)  
-by Lukas Ruebbelke 
+by Joe Eames 
+
+A deep look at several advanced concepts in jQuery from performance to plugins to promises
 
 ___
 
