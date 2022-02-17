@@ -13,7 +13,7 @@
       dig() { _output('I, the dog, am digging...'); },
     },
   };
-  
+
   dog.actions.bark();
   dog.actions.dig();
 

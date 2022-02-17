@@ -1,0 +1,5 @@
+div[id^=div] {
+  margin: 3px;
+  padding: 5px;
+  width: 200px
+}
