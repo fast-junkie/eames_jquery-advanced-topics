@@ -1,0 +1,8 @@
+.inside {
+  height: 40px;
+}
+section div {
+  border: thin solid black;
+  padding: 5px;
+  margin: 5px;
+}
