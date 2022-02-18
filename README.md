@@ -15,3 +15,5 @@ ___
 ### Summary
 ---
 :skull: As this was written for `jQuery 1.7.x` my using `jQuery 3.6.x` proved to reveal **_many_** deprecated items.
+
+:skull: Love Joe Eames stuff... he needs to bring this lesson up to the 3.x.x era... before it becomes the 4.x.x era.
