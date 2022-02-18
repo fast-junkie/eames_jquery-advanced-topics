@@ -1,0 +1,9 @@
+#container {
+  border: thin solid black;
+  height: 6rem; 
+  padding: 1rem;
+  width: 18rem; 
+}
+label {
+  display: block;
+}
