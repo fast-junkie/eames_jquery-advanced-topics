@@ -1,0 +1,30 @@
+#redGuy {
+  background-color: red; 
+  height: 100px; 
+  left: 10px;
+  position: absolute; 
+  top: 220px; 
+  width: 100px; 
+}
+#blueGuy {
+  background-color: blue; 
+  height: 100px; 
+  left: 600px;
+  position: absolute; 
+  top: 220px; 
+  width: 100px; 
+}
+#bullet {
+  background-color: green; 
+  display: none;
+  height: 4px; 
+  left: 110px; 
+  position: absolute; 
+  top: 270px; 
+  width: 20px; 
+}
+#button1 {
+  left: 100px;
+  position: absolute; 
+  top: 400px; 
+}

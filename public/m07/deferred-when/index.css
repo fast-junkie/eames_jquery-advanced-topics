@@ -1,0 +1,12 @@
+label {
+  display: block;
+}
+.m1 {
+  margin: 1rem !important;
+}
+.div-text {
+  border: thin solid black; 
+  display: none; 
+  padding: 5px;
+  width: 500px; 
+}

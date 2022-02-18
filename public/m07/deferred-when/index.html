@@ -10,8 +10,34 @@
     <title></title>
   </head>
   <body>
-    <h3>Title</h3>
-    <div id="output"></div>
+    <h3>Deferred When</h3>
+    <div class="m1">
+      <label for="div1time">Time for first DIV:</label>
+      <input id="div1time" type="text" value="1000" />
+    </div>
+    <div class="m1">
+      <label for="div2time">Time for second DIV:</label>
+      <input id="div2time" type="text" value="2000" />
+    </div>
+    <div class="m1">
+      <input type="button" id="button1" value="Resolve"  />
+	    <input type="button" id="button2" value="Reject"  />
+    </div>
+
+    <div id="div1" class="div-text m1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+      sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div id="div2" class="div-text m1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+      sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
 
     <script src="/assets/vendor/jquery.min.js"></script>
     <script src="/assets/js/app.js"></script>
